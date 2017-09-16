@@ -1,4 +1,4 @@
-package com.ikempf.sandbox.sam_subtyping_bug
+package com.ikempf.sam_subtyping_bug
 
 sealed trait JsonValue
 

@@ -1,6 +1,6 @@
-package com.ikempf.sandbox.sam_subtyping_bug
+package com.ikempf.sam_subtyping_bug
 
-import com.ikempf.sandbox.sam_subtyping_bug.JsonEncoderInstances._
+import JsonEncoderInstances._
 import org.scalatest.{FlatSpec, Matchers}
 
 class JsonEncoderInstancesTest extends FlatSpec with Matchers {
