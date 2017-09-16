@@ -1,7 +1,6 @@
 package com.ikempf.sam_subtyping_bug
 
-import com.ikempf.sam_subtyping_bug.JsonValue.{JsonObject, JsonString}
-import com.ikempf.sandbox.sam_subtyping_bug.JsonValue.{JsonNumber, JsonObject, JsonString}
+import com.ikempf.sam_subtyping_bug.JsonValue.{JsonNumber, JsonObject, JsonString}
 
 trait JsonEncoder[A] {
   def encode(value: A): JsonValue
